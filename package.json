@@ -1,0 +1,13 @@
+{
+  "name": "jsx-without-react",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12"
+  }
+}
