@@ -4,9 +4,10 @@
   "scripts": {
     "dev": "vite",
     "build": "npx vite build",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "postinstall": "chmod +x node_modules/.bin/vite"
   },
-  "devDependencies": {
+  "dependencies": {
     "typescript": "^5.9.3",
     "vite": "^7.1.12"
   }

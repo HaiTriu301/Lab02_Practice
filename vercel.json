@@ -1,5 +1,5 @@
 {
-  "buildCommand": "chmod +x node_modules/.bin/vite && vite build",
-  "installCommand": "npm install --ignore-scripts",
+  "buildCommand": "vite build",
+  "installCommand": "npm install",
   "outputDirectory": "dist"
 }
