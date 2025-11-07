@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
@@ -11,3 +11,4 @@
     "vite": "^7.1.12"
   }
 }
+
